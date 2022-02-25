@@ -17,6 +17,7 @@ header {
     margin: 30px;
     height: 230px;
     width: 1376px;
+    box-shadow: 7px 7px 4px var(--medium);
 }
 
 header h1 {
@@ -67,6 +68,7 @@ a:hover {
     width: 380px;
     border: 10px solid var(--dark);
     border-radius: 25px;
+    box-shadow: 7px 7px 4px var(--medium);
 }
 
 .boxes {
@@ -77,6 +79,7 @@ a:hover {
     padding: 20px;
     border: 10px solid var(--dark);
     border-radius: 25px;
+    box-shadow: 7px 7px 4px var(--medium);
     clear: both;
     float: left;
     height: 100%;
