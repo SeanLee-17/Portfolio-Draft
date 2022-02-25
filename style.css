@@ -107,9 +107,8 @@ main div h2 {
 }
 
 .secondApp {
-    height: 250px;
-    width: 300px;
-    position: absolute;
+    height: 565px;
+    width: 440px;
     margin-left: auto;
     margin-right: auto;
     border: 5px solid var(--medium);
@@ -123,19 +122,19 @@ main div h2 {
 
 .thirdApp {
     height: 250px;
-    width: 300px;
+    width: 1333px;
+    margin-top: 20px;
     border: 5px solid var(--medium);
     border-radius: 25px;
     padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .thirdApp:hover {
     box-shadow:  0 2px 15px var(--dark);
 }
 
-main div ul{
+main div ul {
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 20px;
