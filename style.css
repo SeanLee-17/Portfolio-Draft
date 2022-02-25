@@ -15,6 +15,7 @@ header {
     padding: 20px;
     background-color: whitesmoke;
     margin: 30px;
+    height: 230px;
 }
 
 header h1 {
@@ -42,7 +43,7 @@ header div ul {
 }
 
 header div ul li {
-    display: inline;
+    display: inline-block;
     text-align: right;
 }
 
@@ -109,7 +110,8 @@ main div h2 {
     height: 250px;
     width: 300px;
     position: absolute;
-    right: 30px;
+    margin-left: auto;
+    margin-right: auto;
     border: 5px solid var(--medium);
     border-radius: 25px;
     padding: 5px;
@@ -125,6 +127,8 @@ main div h2 {
     border: 5px solid var(--medium);
     border-radius: 25px;
     padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .thirdApp:hover {
@@ -144,4 +148,26 @@ main div ul{
 main div ul li {
     display: inline;
     text-align: right;
+}
+
+@media screen and (max-width: 992px) {
+    .boxes {
+        width: 50%;
+        height: 50%;
+    }
+    header {
+        width: 50%;
+    }
+    .firstApp {
+        width: 50%;
+        height: 50%;
+    }
+    .secondApp {
+        width: 50%;
+        height: 50%;
+    }
+    .thirdApp {
+        width: 50%;
+        height: 50%;
+    }
 }
