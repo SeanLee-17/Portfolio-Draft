@@ -1,0 +1,147 @@
+:root {
+    --dark: navy;
+    --light: rgb(228, 243, 253);
+    --medium: rgb(55, 141, 211);
+    --font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+body {
+    background-color: var(--light);
+}
+
+header {
+    border: 10px solid var(--dark);
+    border-radius: 25px;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin: 30px;
+}
+
+header h1 {
+    display: inline-block;
+    font-family: var(--font);
+    font-size: 45px;
+    color: var(--dark)
+}
+
+header h1 .Portfolio {
+    color: var(--medium)
+}
+
+header div {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    float: right;
+    font-family: var(--font);
+    font-size: 35px;
+}
+
+header div ul {
+    list-style-type: none;
+}
+
+header div ul li {
+    display: inline;
+    text-align: right;
+}
+
+a {
+    color: var(--medium);
+    text-decoration: none;
+    margin: 10px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+a:hover {
+    text-shadow: 2px 2px 3px var(--dark);
+}
+
+.avatar { 
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 5px;
+    height: 300px;
+    width: 380px;
+    border: 10px solid var(--dark);
+    border-radius: 25px;
+}
+
+.boxes {
+    display: block;
+    position: relative;
+    width: 1376px;
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid var(--dark);
+    border-radius: 25px;
+    clear: both;
+    float: left;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: whitesmoke;
+}
+
+main div {
+    font-size: 25px;
+}
+
+main div h2 {
+    font-size: 40px;
+    color: var(--medium);
+}
+
+.firstApp {
+    height: 565px;
+    border: 5px solid var(--medium);
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.firstApp:hover {
+    box-shadow:  0 2px 15px var(--dark);
+}
+
+.secondApp {
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    right: 30px;
+    border: 5px solid var(--medium);
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.secondApp:hover {
+    box-shadow:  0 2px 15px var(--dark);
+}
+
+.thirdApp {
+    height: 250px;
+    width: 300px;
+    border: 5px solid var(--medium);
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.thirdApp:hover {
+    box-shadow:  0 2px 15px var(--dark);
+}
+
+main div ul{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    float: right;
+    font-family: var(--font);
+    font-size: 35px;
+    list-style-type: none;
+}
+
+main div ul li {
+    display: inline;
+    text-align: right;
+}
