@@ -1,6 +1,6 @@
 # Portfolio-Draft
 
-## Description 
+## Description
 
 This is my profeesional portfolio. In it you can find information about me, samples of my work, and my contact information. You can also find a picture of me attached to this website. I utilized both HTML and CSS to style and manipulate the information on the screen. This portfolio also displays all the work we have completed in this course.
 
@@ -21,5 +21,3 @@ This portfolio displays all the course work I have completed so far in my course
 ## Screenshot
 
 ![Screenshot](HW2.png)
-
-
